@@ -21,17 +21,14 @@
     "wildemitter": "^1.0.0",
     "getscreenmedia": "https://github.com/J3SR0/getScreenMedia/tarball/master",
     "hark": "^1.0.0",
-    "mockconsole": "0.0.x"
+    "mockconsole": "0.0.x",
+    "webrtc-adapter": "^3.1.6"
   },
   "devDependencies": {
     "browserify": "^13.1.0",
     "jshint": "^2.9.2",
     "precommit-hook": "^3.0.0",
-    "tape": "^4.6.0",
-    "webrtc-adapter": "^3.1.6"
-  },
-  "peerDependencies": {
-    "webrtc-adapter": "^3.1.6"
+    "tape": "^4.6.0"
   },
   "testling": {
     "files": "test/*.js"
